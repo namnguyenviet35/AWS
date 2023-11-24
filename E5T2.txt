@@ -1,0 +1,13 @@
+a. Scan infrastructure as code templates. 
+---> Aws configuration rules
+    + Detects a configuration change to an AWS resource 
+
+b. Scan AMI’s or containers for OS vulnerabilities. 
+
+---> ECR image scaning
+    + Detect CVE VUL
+    + Version import module
+c. Scan an AWS environment for cloud configuration vulnerabilities.
+
+--> AWS inspactor
+   +  Detect software vulnerabilities

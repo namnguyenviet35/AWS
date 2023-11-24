@@ -1,0 +1,4 @@
+GuardDuty employs machine learning algorithms to establish a baseline of normal behavior within your AWS environment. Deviations from this baseline, such as unusual API calls, unexpected resource launches, or abnormal data transfer patterns, may trigger alerts.
+GuardDuty analyzes CloudTrail logs to identify unusual patterns in API calls. For this case, if there's an unusual number of ssh failed login attempts, it might indicate a brute-force attack.(Guard Duty would have discovered it by using the VPC Flow logs,
+ which have information about traffic going to and from the EC2 network interfaces.)
+

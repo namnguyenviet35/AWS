@@ -1,0 +1,4 @@
+1. WebAppS allows some risky ports like ssh (22), http (80) from 0.0.0.0/0
+2. Allow role administrator access to all S3 Buckets
+
+

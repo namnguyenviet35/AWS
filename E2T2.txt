@@ -1,0 +1,8 @@
+1.  S3 buckets not enable encrytion
+--> enable encrytion for S3 buckets
+2. Allow access SSH, application port 5000 from internet
+--> Disable or limit ip access SSH, applicaiton port from internet
+3. IAM policy have full access to resource
+--> limit access, change permisstion to read-only
+4. Access appliacion via port 80
+---> change/or redirect port from 80 to https

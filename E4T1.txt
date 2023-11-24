@@ -1,0 +1,6 @@
+
+1. Identify 2-3 changes that can be made to our environment to prevent an SSH brute force attack from the internet.
+  a. Dont allow access SSH from internet, If required then only allow specific IPs
+   b. Change the account, may be disbale root account access via ssh. Create new account have root permission and have strong password or login via SSH KEY
+2 Neither instance should have had access to the secret recipes bucket; even in the instance that API credentials were compromised how could we have prevented access to sensitive data?
+--> i think, we shoud create policy block access to secret recipes bucket/ or just allow from IP of admin instance. 

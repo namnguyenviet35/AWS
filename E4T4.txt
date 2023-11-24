@@ -1,0 +1,15 @@
+1. What additional architectural change can be made to reduce the internet-facing attack surface of the web application instance.
+
+---> Dont allow risk port access from internet (like: ssh (23), telnet (22), change port 80 to 443..)
+or disable SSH access
+2. Assuming the IAM permissions for the S3 bucket are still insecure, would creating VPC private endpoints for S3 prevent the unauthorized access to the secrets bucket.
+
+--> No,  creating VPC private endpoints for S3 can not prevent the unauthorized access to the bucket
+
+3. Will applying default encryption setting to the s3 buckets encrypt the data that already exists?
+
+--> No, it is not effect to the data that already exists
+4. The changes you made above were done through the console or CLI; describe the outcome if the original cloud formation templates are applied to this environment?
+
+--> if the original cloud formation templates are applied to this environment, the change will be apply by next cloud formation stack deployment
+
